@@ -1,0 +1,301 @@
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/appsettings.Development.json
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/appsettings.json
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.deps.json
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.runtimeconfig.json
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.runtimeconfig.dev.json
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/ref/JustTradeIt.Software.API.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.pdb
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/AWSSDK.Core.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/AWSSDK.S3.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Humanizer.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.Data.Sqlite.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.DotNet.PlatformAbstractions.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.Extensions.DependencyModel.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.OpenApi.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/RabbitMQ.Client.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/SQLitePCLRaw.batteries_v2.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/SQLitePCLRaw.nativelibrary.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/SQLitePCLRaw.core.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/SQLitePCLRaw.provider.dynamic_cdecl.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/alpine-x64/native/libe_sqlite3.so
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-arm/native/libe_sqlite3.so
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-armel/native/libe_sqlite3.so
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-x64/native/libe_sqlite3.so
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-x86/native/libe_sqlite3.so
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/win-arm/native/e_sqlite3.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/win-arm64/native/e_sqlite3.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/win-x64/native/e_sqlite3.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/win-x86/native/e_sqlite3.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Models.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Repositories.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Services.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Services.pdb
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Repositories.pdb
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Models.pdb
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.csprojAssemblyReference.cache
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.GeneratedMSBuildEditorConfig.editorconfig
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.AssemblyInfoInputs.cache
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.AssemblyInfo.cs
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.csproj.CoreCompileInputs.cache
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.MvcApplicationPartsAssemblyInfo.cs
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.MvcApplicationPartsAssemblyInfo.cache
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/staticwebassets/JustTradeIt.Software.API.StaticWebAssets.Manifest.cache
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/staticwebassets/JustTradeIt.Software.API.StaticWebAssets.xml
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/scopedcss/bundle/JustTradeIt.Software.API.styles.css
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.RazorTargetAssemblyInfo.cache
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.csproj.CopyComplete
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/ref/JustTradeIt.Software.API.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.pdb
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.genruntimeconfig.cache
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/appsettings.Development.json
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/appsettings.json
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.exe
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.deps.json
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.runtimeconfig.json
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.runtimeconfig.dev.json
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/ref/JustTradeIt.Software.API.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.pdb
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/AWSSDK.Core.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/AWSSDK.S3.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Humanizer.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.Data.Sqlite.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.DotNet.PlatformAbstractions.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.OpenApi.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/RabbitMQ.Client.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/SQLitePCLRaw.batteries_v2.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/SQLitePCLRaw.nativelibrary.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/SQLitePCLRaw.core.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/alpine-x64/native/libe_sqlite3.so
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-arm/native/libe_sqlite3.so
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-arm64/native/libe_sqlite3.so
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-armel/native/libe_sqlite3.so
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-mips64/native/libe_sqlite3.so
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-x64/native/libe_sqlite3.so
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-x86/native/libe_sqlite3.so
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/win-arm/native/e_sqlite3.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/win-arm64/native/e_sqlite3.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/win-x64/native/e_sqlite3.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/win-x86/native/e_sqlite3.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Models.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Repositories.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Services.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Services.pdb
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Repositories.pdb
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Models.pdb
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.csproj.AssemblyReference.cache
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.AssemblyInfoInputs.cache
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.AssemblyInfo.cs
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.csproj.CoreCompileInputs.cache
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/staticwebassets/JustTradeIt.Software.API.StaticWebAssets.Manifest.cache
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/staticwebassets/JustTradeIt.Software.API.StaticWebAssets.xml
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/scopedcss/bundle/JustTradeIt.Software.API.styles.css
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.RazorTargetAssemblyInfo.cache
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.csproj.CopyComplete
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/ref/JustTradeIt.Software.API.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.pdb
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.genruntimeconfig.cache
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/appsettings.Development.json
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/appsettings.json
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.exe
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.deps.json
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.runtimeconfig.json
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.runtimeconfig.dev.json
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/ref/JustTradeIt.Software.API.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.pdb
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/AWSSDK.Core.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/AWSSDK.S3.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Humanizer.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.Data.Sqlite.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.DotNet.PlatformAbstractions.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.OpenApi.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/RabbitMQ.Client.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/SQLitePCLRaw.batteries_v2.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/SQLitePCLRaw.nativelibrary.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/SQLitePCLRaw.core.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/alpine-x64/native/libe_sqlite3.so
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-arm/native/libe_sqlite3.so
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-arm64/native/libe_sqlite3.so
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-armel/native/libe_sqlite3.so
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-mips64/native/libe_sqlite3.so
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-x64/native/libe_sqlite3.so
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-x86/native/libe_sqlite3.so
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/win-arm/native/e_sqlite3.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/win-arm64/native/e_sqlite3.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/win-x64/native/e_sqlite3.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/win-x86/native/e_sqlite3.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Models.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Repositories.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Services.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Services.pdb
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Repositories.pdb
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Models.pdb
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.csproj.AssemblyReference.cache
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.AssemblyInfoInputs.cache
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.AssemblyInfo.cs
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.csproj.CoreCompileInputs.cache
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/staticwebassets/JustTradeIt.Software.API.StaticWebAssets.Manifest.cache
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/staticwebassets/JustTradeIt.Software.API.StaticWebAssets.xml
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/scopedcss/bundle/JustTradeIt.Software.API.styles.css
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.RazorTargetAssemblyInfo.cache
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.csproj.CopyComplete
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/ref/JustTradeIt.Software.API.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.pdb
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.genruntimeconfig.cache
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/appsettings.Development.json
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/appsettings.json
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.deps.json
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.runtimeconfig.json
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.runtimeconfig.dev.json
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/ref/JustTradeIt.Software.API.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.pdb
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/AWSSDK.Core.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/AWSSDK.S3.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Humanizer.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.Data.Sqlite.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.DotNet.PlatformAbstractions.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.Extensions.DependencyModel.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Microsoft.OpenApi.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Newtonsoft.Json.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/RabbitMQ.Client.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/SQLitePCLRaw.batteries_v2.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/SQLitePCLRaw.nativelibrary.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/SQLitePCLRaw.core.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/SQLitePCLRaw.provider.dynamic_cdecl.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/alpine-x64/native/libe_sqlite3.so
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-arm/native/libe_sqlite3.so
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-armel/native/libe_sqlite3.so
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-x64/native/libe_sqlite3.so
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/linux-x86/native/libe_sqlite3.so
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/win-arm/native/e_sqlite3.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/win-arm64/native/e_sqlite3.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/win-x64/native/e_sqlite3.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/runtimes/win-x86/native/e_sqlite3.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Models.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Repositories.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Services.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Services.pdb
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Repositories.pdb
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/bin/Debug/net5.0/JustTradeIt.Software.API.Models.pdb
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.csprojAssemblyReference.cache
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.GeneratedMSBuildEditorConfig.editorconfig
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.AssemblyInfoInputs.cache
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.AssemblyInfo.cs
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.csproj.CoreCompileInputs.cache
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.MvcApplicationPartsAssemblyInfo.cs
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.MvcApplicationPartsAssemblyInfo.cache
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/staticwebassets/JustTradeIt.Software.API.StaticWebAssets.Manifest.cache
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/staticwebassets/JustTradeIt.Software.API.StaticWebAssets.xml
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/scopedcss/bundle/JustTradeIt.Software.API.styles.css
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.RazorTargetAssemblyInfo.cache
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.csproj.CopyComplete
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/ref/JustTradeIt.Software.API.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.pdb
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/obj/Debug/net5.0/JustTradeIt.Software.API.genruntimeconfig.cache

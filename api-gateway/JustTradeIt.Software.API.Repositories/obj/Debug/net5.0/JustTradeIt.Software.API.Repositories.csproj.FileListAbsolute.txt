@@ -1,0 +1,60 @@
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/JustTradeIt.Software.API.Repositories.deps.json
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/JustTradeIt.Software.API.Repositories.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/ref/JustTradeIt.Software.API.Repositories.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/JustTradeIt.Software.API.Repositories.pdb
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/JustTradeIt.Software.API.Models.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/JustTradeIt.Software.API.Models.pdb
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.csprojAssemblyReference.cache
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.AssemblyInfoInputs.cache
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.AssemblyInfo.cs
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.csproj.CoreCompileInputs.cache
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.csproj.CopyComplete
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/ref/JustTradeIt.Software.API.Repositories.dll
+/home/agustt/Desktop/VefÞ/template/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.pdb
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/JustTradeIt.Software.API.Repositories.deps.json
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/JustTradeIt.Software.API.Repositories.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/ref/JustTradeIt.Software.API.Repositories.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/JustTradeIt.Software.API.Repositories.pdb
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/JustTradeIt.Software.API.Models.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/JustTradeIt.Software.API.Models.pdb
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.csproj.AssemblyReference.cache
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.AssemblyInfoInputs.cache
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.AssemblyInfo.cs
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.csproj.CoreCompileInputs.cache
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.csproj.CopyComplete
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/ref/JustTradeIt.Software.API.Repositories.dll
+C:/Users/Ágúst/Desktop/V/template/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.pdb
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/JustTradeIt.Software.API.Repositories.deps.json
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/JustTradeIt.Software.API.Repositories.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/ref/JustTradeIt.Software.API.Repositories.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/JustTradeIt.Software.API.Repositories.pdb
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/JustTradeIt.Software.API.Models.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/JustTradeIt.Software.API.Models.pdb
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.csproj.AssemblyReference.cache
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.AssemblyInfoInputs.cache
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.AssemblyInfo.cs
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.csproj.CoreCompileInputs.cache
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.csproj.CopyComplete
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/ref/JustTradeIt.Software.API.Repositories.dll
+C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.pdb
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/JustTradeIt.Software.API.Repositories.deps.json
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/JustTradeIt.Software.API.Repositories.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/ref/JustTradeIt.Software.API.Repositories.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/JustTradeIt.Software.API.Repositories.pdb
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/JustTradeIt.Software.API.Models.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/bin/Debug/net5.0/JustTradeIt.Software.API.Models.pdb
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.csprojAssemblyReference.cache
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.AssemblyInfoInputs.cache
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.AssemblyInfo.cs
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.csproj.CoreCompileInputs.cache
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.csproj.CopyComplete
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/ref/JustTradeIt.Software.API.Repositories.dll
+/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/obj/Debug/net5.0/JustTradeIt.Software.API.Repositories.pdb
