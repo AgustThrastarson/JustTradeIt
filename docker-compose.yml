@@ -1,0 +1,36 @@
+version: '3'
+services:
+  message-broker:
+    image: rabbitmq
+    container_name: message-broker
+    hostname: message-broker
+    networks:
+      - "trade-network"
+    environment:
+      RABBITMQ_DEFAULT_USER: "guest"
+      RABBITMQ_DEFAULT_PASS: "guest"
+    expose:
+      - "5672"
+      - "15672"
+
+  notification-service:
+    build: ./notification-service
+    container_name: notification-service
+    environment:
+      QUEUE_HOST: "message-broker"
+    networks:
+      - "trade-network"
+  api-gateway: 
+    build: ./api-gateway
+    container_name: api-gateway
+    environment:
+      QUEUE_HOST: "message-broker"
+
+    ports:
+      - "80:5000"
+    networks:
+      - "trade-network"
+
+networks:
+  trade-network:
+    driver: bridge

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t8nCZHV7pokVhG6cX589TEoJe0i2zJwQ52CxO8nG25hz5mOCJsLpNbIzQhrSyK5WwX2lFypJ842sxMYKUoVUGA==",
+  "dgSpecHash": "2BfJuqWhOFnC1aDea+pT/12yicl2x0w8kGI8q+FdL+MtTrTz3QgTNuUKAm0DEOGuX8wL46VQDtjP86vzTa+vQw==",
   "success": true,
-  "projectFilePath": "/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Models/JustTradeIt.Software.API.Models.csproj",
+  "projectFilePath": "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Models/JustTradeIt.Software.API.Models.csproj",
   "expectedPackageFiles": [
     "/home/agustt/.nuget/packages/microsoft.aspnetcore.http/2.2.2/microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
     "/home/agustt/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
@@ -13,11 +13,13 @@
     "/home/agustt/.nuget/packages/microsoft.extensions.options/2.2.0/microsoft.extensions.options.2.2.0.nupkg.sha512",
     "/home/agustt/.nuget/packages/microsoft.extensions.primitives/2.2.0/microsoft.extensions.primitives.2.2.0.nupkg.sha512",
     "/home/agustt/.nuget/packages/microsoft.net.http.headers/2.2.0/microsoft.net.http.headers.2.2.0.nupkg.sha512",
+    "/home/agustt/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/home/agustt/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
     "/home/agustt/.nuget/packages/system.componentmodel.annotations/4.5.0/system.componentmodel.annotations.4.5.0.nupkg.sha512",
     "/home/agustt/.nuget/packages/system.memory/4.5.1/system.memory.4.5.1.nupkg.sha512",
     "/home/agustt/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.1/system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
-    "/home/agustt/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
+    "/home/agustt/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512",
+    "/home/agustt/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,4 +1,5 @@
 using Amazon.S3;
+using JustTradeIt.Software.API.ExceptionHandlerExtensions;
 using JustTradeIt.Software.API.Middlewares;
 using JustTradeIt.Software.API.Repositories.Contexts;
 using JustTradeIt.Software.API.Repositories.Implementations;
@@ -86,7 +87,7 @@ namespace JustTradeIt.Software.API
             }
 
             app.UseHttpsRedirection();
-
+            app.UseGlobalExceptionHandler();
             app.UseRouting();
 
             app.UseAuthentication();

@@ -1,21 +1,27 @@
+import pika
+from services import emailService
+from connection import queueConnection
+from time import sleep
+
 def setup_handler(channel, exchange_name):
-    connection = pika.BlockingConnection(
-    pika.ConnectionParameters(host='localhost'))
-    channel = connection.channel()
 
-    channel.exchange_declare(exchange=exchange_name, exchange_type='fanout')
+    #channel, connection, exchange_name = queueConnection.setup()
+    create_order_routing_key = 'update_trade_request'
+    update_trade_queue = 'update_trade_queue'
 
-    result = channel.queue_declare(queue='trade-update-queue', exclusive=True)
-    queue_name = result.method.queue
+    # Declare the exchange, if it doesn't exist
+    channel.exchange_declare(exchange=exchange_name, exchange_type='direct', durable=True)
+    # Declare the queue, if it doesn't exist
+    channel.queue_declare(queue=update_trade_queue, durable=True)
+    # Bind the queue to a specific exchange with a routing key
+    channel.queue_bind(exchange=exchange_name, queue=update_trade_queue, routing_key=create_order_routing_key)
+    print(' [*] Waiting for request. To exit press CTRL+C')
 
-    channel.queue_bind(exchange='logs', queue=queue_name)
-
-    print(' [*] Waiting for logs. To exit press CTRL+C')
 
     def callback(ch, method, properties, body):
-        print(" [x] %r" % body)
+        emailService.send_trade_update_email(ch, method, properties, body)
+        print('ayo')
 
-    channel.basic_consume(
-        queue=queue_name, on_message_callback=callback, auto_ack=True)
+    channel.basic_consume(queue=update_trade_queue, auto_ack=True, on_message_callback=callback)
 
-    channel.start_consuming()
+

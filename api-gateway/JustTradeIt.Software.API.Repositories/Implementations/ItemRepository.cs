@@ -23,33 +23,47 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
         
         public string AddNewItem(string email, ItemInputModel item)
         {
-            var Itemcond = _dbContext.ItemConditions.FirstOrDefault(x => x.ConditionCode == item.ConditionCode);
-            if (Itemcond == null)
+            ICollection<ItemImage> images = new List<ItemImage>();
+            
+            
+            var itemcond = _dbContext.ItemConditions.FirstOrDefault(x => x.ConditionCode == item.ConditionCode);
+            if (itemcond == null)
             {
-                var newitemcond = new ItemCondition
+                
+                itemcond = new ItemCondition
                 {
                     ConditionCode = item.ConditionCode,
+                    Description = null
                 };
-                _dbContext.ItemConditions.Add(newitemcond);
+                _dbContext.ItemConditions.Add(itemcond);
                 _dbContext.SaveChanges();
             }
+            
             var user = _dbContext.Users.First(x => x.Email == email);
             
-
             var entity = new Item
             {
                 PublicIdentifier = Guid.NewGuid().ToString(),
                 Title = item.Title,
                 ShortDescription = item.ShortDescription,
                 Description = item.Description,
-                ItemConditionId = Itemcond.Id,
+                ItemImages = images,
+                ItemConditionId = itemcond.Id,
                 OwnerId = user,
                 Deleted = false
             }; 
+                foreach (var image in item.ItemImages)
+                {
+                    images.Add(new ItemImage
+                    {
+                        ImageUrl = image,
+                        ItemNav = entity,
+                        ItemId = entity.Id,
+                    });
+                }
             _dbContext.Items.Add(entity);
             _dbContext.SaveChanges();
-            // TODO senda Public Identifier
-            return "Item Successfully Added";
+            return entity.PublicIdentifier;
         }
         
         
@@ -92,7 +106,7 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
         public ItemDetailsDto GetItemByIdentifier(string identifier)
         {
             var itemid = _dbContext.Items.FirstOrDefault(x => x.PublicIdentifier == identifier).Id;
-            var NrOfActiveTrades = _dbContext.TradeItems.Where(x=> x.ItemId == itemid).Select(x=> x.Trade).Count(l => l.TradeStatus.ToString() == "Pending");
+            var NrOfActiveTrades = _dbContext.TradeItems.Where(x=> x.ItemId == itemid).Select(x=> x.Trade).Count(l => l.TradeStatus == TradeStatus.Pending);
             var detaileditem = _dbContext.Items.Include(i => i.ItemImages).Where(x => x.PublicIdentifier == identifier)
                 .Select(x => new ItemDetailsDto
                 {
@@ -115,13 +129,16 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
         public void RemoveItem(string email, string identifier)
         {
             var removeitem = _dbContext.Items.Include(x => x.OwnerId).Include(t => t.TradeItems)
-                .ThenInclude(k => k.Trade).FirstOrDefault(x => x.OwnerId.Email == email && x.PublicIdentifier == identifier);
+                .ThenInclude(k => k.Trade).FirstOrDefault(x => x.OwnerId.Email == email && x.PublicIdentifier == identifier && x.Deleted == false);
             if (removeitem != null)
             {
                 removeitem.Deleted = true;
+                _dbContext.SaveChanges();
+
             }
             else
             {
+                //TODO kasta villu 
                 throw new Exception("Item not found");
             }
             

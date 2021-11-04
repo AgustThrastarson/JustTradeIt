@@ -24,11 +24,14 @@ namespace JustTradeIt.Software.API.Controllers
         
         [HttpGet]
         [Route("")]
-        public IActionResult GetTrades()
+        public IActionResult GetTrades([FromQuery] bool onlyCompleted=false,[FromQuery] bool onlyIncludeActive=false)
         {
             var email = User.Claims.FirstOrDefault(c => c.Type == "name").Value;
-            return Ok(_tradeService.GetTrades(email));
-
+            if (onlyCompleted)
+            {
+                return Ok(_tradeService.GetTrades(email));
+            }
+            return Ok(_tradeService.GetTradeRequests(email, onlyIncludeActive));
         }
 
         [HttpGet]

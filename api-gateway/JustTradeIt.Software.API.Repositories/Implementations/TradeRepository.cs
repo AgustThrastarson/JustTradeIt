@@ -153,7 +153,7 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
                     IssuedDate = x.IssuerDate,
                     ModifiedDate = x.ModifiedDate,
                     ModifiedBy = x.ModifiedBy,
-                    Status = x.TradeStatus
+                    Status = x.TradeStatus.ToString()
                 });
             return trade.First();
         }
@@ -162,27 +162,27 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
         {
             var user = _dbContext.Users.FirstOrDefault(u => u.Email == email);
 
-            if (onlyIncludeActive == true)
+            if (onlyIncludeActive)
             {
-                var trado = _dbContext.Trades.Where(t=> t.Receiver.Id == user.Id && t.TradeStatus == TradeStatus.Pending).Select(t=> new TradeDto
+                var trado = _dbContext.Trades.Where(t=> t.Receiver.Id == user.Id || t.SenderId == user.Id && t.TradeStatus == TradeStatus.Pending).Select(t=> new TradeDto
                 {
                     Identifier = t.PublicIdentifier,
                     IssuedDate = t.IssuerDate,
                     ModifiedDate = t.ModifiedDate,
                     ModifiedBy = t.ModifiedBy,
-                    Status = t.TradeStatus
+                    Status = t.TradeStatus.ToString()
                 });
                 return trado;
             }
             else
             {
-                var trado = _dbContext.Trades.Where(t=> t.Receiver.Id == user.Id && t.TradeStatus != TradeStatus.Accepted).Select(t=> new TradeDto
+                var trado = _dbContext.Trades.Where(t=> t.Receiver.Id == user.Id || t.SenderId == user.Id).Select(t=> new TradeDto
                 {
                     Identifier = t.PublicIdentifier,
                     IssuedDate = t.IssuerDate,
                     ModifiedDate = t.ModifiedDate,
                     ModifiedBy = t.ModifiedBy,
-                    Status = t.TradeStatus
+                    Status = t.TradeStatus.ToString()
                 });
                 return trado;
             }
@@ -193,20 +193,31 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
 
         public IEnumerable<TradeDto> GetTrades(string email)
         {
-            return GetTradeRequests(email, false);
+            var user = _dbContext.Users.FirstOrDefault(u => u.Email == email);
+
+            // GetTradeRequests(email, false);
+            var trado = _dbContext.Trades.Where(t=> t.Receiver.Id == user.Id || t.SenderId == user.Id && t.TradeStatus == TradeStatus.Accepted).Select(t=> new TradeDto
+            {
+                Identifier = t.PublicIdentifier,
+                IssuedDate = t.IssuerDate,
+                ModifiedDate = t.ModifiedDate,
+                ModifiedBy = t.ModifiedBy,
+                Status = t.TradeStatus.ToString()
+            });
+            return trado;
         }
 
         public IEnumerable<TradeDto> GetUserTrades(string userIdentifier)
         {
             var trade = _dbContext.Trades.Include(t => t.Sender).Include(r => r.Receiver).Where(t =>
-                t.Receiver.PublicIdentifier == userIdentifier && t.Sender.PublicIdentifier == userIdentifier).Select(
+                t.Receiver.PublicIdentifier == userIdentifier || t.Sender.PublicIdentifier == userIdentifier).Select(
                 x => new TradeDto
                 {
                     Identifier = x.PublicIdentifier,
                     IssuedDate = x.IssuerDate,
                     ModifiedDate = x.ModifiedDate,
                     ModifiedBy = x.ModifiedBy,
-                    Status = x.TradeStatus
+                    Status = x.TradeStatus.ToString()
                 });
             return trade;
         }
@@ -215,7 +226,8 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
         {
             var user = _dbContext.Users.FirstOrDefault(u => u.Email == email);
             var trade = _dbContext.Trades.FirstOrDefault(t => t.PublicIdentifier == identifier);
-
+            //TODO check if trade is null
+            //TODO check if user is null
             if (trade.TradeStatus != TradeStatus.Pending)
             {
                 throw new Exception("Invalid Trade");
@@ -240,7 +252,7 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
                 }
                 else
                 {
-                    throw new Exception("Invalid TradeStatus");
+                    throw new ArgumentNullException();
                 }
             }
 

@@ -23,8 +23,12 @@ namespace JustTradeIt.Software.API.Services.Implementations
         
         public string CreateTradeRequest(string email, TradeInputModel tradeRequest)
         {
-            _queueService.PublishMessage("new-trade-request",email);   
-            return _tradeRepository.CreateTradeRequest(email, tradeRequest);
+            
+            var tradeidentifier = _tradeRepository.CreateTradeRequest(email, tradeRequest);
+            var recEmail = _tradeRepository.GetTradeByIdentifier(tradeidentifier).Receiver.Email;
+            var emailDict = new Dictionary<string, string>() {{"email", recEmail}};
+            _queueService.PublishMessage("new_trade_request",emailDict);
+            return tradeidentifier;
         }
 
         public TradeDetailsDto GetTradeByIdentifer(string tradeIdentifier)
@@ -32,9 +36,9 @@ namespace JustTradeIt.Software.API.Services.Implementations
             return _tradeRepository.GetTradeByIdentifier(tradeIdentifier);
         }
 
-        public IEnumerable<TradeDto> GetTradeRequests(string email, bool onlyIncludeActive = true)
+        public IEnumerable<TradeDto> GetTradeRequests(string email, bool onlyIncludeActive)
         {
-            throw new NotImplementedException();
+            return _tradeRepository.GetTradeRequests(email, onlyIncludeActive);
         }
 
         public IEnumerable<TradeDto> GetTrades(string email)
@@ -44,8 +48,10 @@ namespace JustTradeIt.Software.API.Services.Implementations
 
         public object UpdateTradeRequest(string email, string identifier , string status)
         {
-            Enum.TryParse(status, out TradeStatus tradestatus);
-            return _tradeRepository.UpdateTradeRequest(identifier, email, tradestatus);
+            Enum.TryParse(status, out TradeStatus tradestatus); 
+            var tradeinfo = _tradeRepository.UpdateTradeRequest(identifier, email, tradestatus);
+            _queueService.PublishMessage("update_trade_request",tradeinfo);
+            return tradeinfo;
         }
     }
 }

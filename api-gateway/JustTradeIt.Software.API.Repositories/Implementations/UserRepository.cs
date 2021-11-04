@@ -15,6 +15,7 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
     {
         private readonly TradeItDbContext _dbContext;
         private string _salt = "00209b47-08d7-475d-a0fb-20abf0872ba0";
+        private string _defaultProfilePic = "https://tradebucketo.s3.eu-west-1.amazonaws.com/360_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg";
 
 
         public UserRepository(TradeItDbContext dbContext)
@@ -58,8 +59,10 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
             // Create new user
             var entity = new User
             {
+                PublicIdentifier = Guid.NewGuid().ToString(),
                 Email = inputModel.Email,
                 FullName = inputModel.FullName,
+                ProfileImageUrl = _defaultProfilePic,
                 HashedPassword = HashHelper.HashPassword(inputModel.Password, _salt)
             };
             _dbContext.Users.Add(entity);
@@ -75,8 +78,8 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
             {
                 Identifier = Guid.NewGuid().ToString(),
                 Email = entity.Email,
-                FullName = entity.FullName
-
+                FullName = entity.FullName,
+                ProfileImageUrl = _defaultProfilePic
             }; 
         }
 
@@ -101,8 +104,22 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
 
         public UserDto GetUserInformation(string userIdentifier)
         {
-            throw new NotImplementedException();
+            var user = _dbContext.Users.FirstOrDefault(u => u.PublicIdentifier == userIdentifier);
+            //TODO Kasta VIllu ef engin user fannst
+            if (user == null)
+            {
+                throw new Exception("User " + userIdentifier + " not found");
+            }
+
+            return new UserDto
+            {
+                Identifier = user.PublicIdentifier,
+                Email = user.Email,
+                FullName = user.FullName,
+                ProfileImageUrl = user.ProfileImageUrl
+            };
         }
+
 
         public void UpdateProfile(string email, string profileImageUrl, ProfileInputModel profile)
         {

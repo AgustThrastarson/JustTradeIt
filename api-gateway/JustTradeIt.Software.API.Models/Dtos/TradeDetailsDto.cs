@@ -15,7 +15,7 @@ namespace JustTradeIt.Software.API.Models.Dtos
         public DateTime IssuedDate { get; set; }
         public DateTime ModifiedDate { get; set; }
         public string ModifiedBy { get; set; }
-        public TradeStatus Status { get; set; }
+        public string Status { get; set; }
         
         
     }

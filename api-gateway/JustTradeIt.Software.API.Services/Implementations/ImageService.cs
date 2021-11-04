@@ -19,7 +19,8 @@ namespace JustTradeIt.Software.API.Services.Implementations
     {
         private readonly IConfiguration _configuration;
 
-        private readonly string imgurl = "https://s3.console.aws.amazon.com/s3/object/tradebucketo?region=eu-west-1&prefix=";
+        private readonly string imgurl = "https://tradebucketo.s3.eu-west-1.amazonaws.com/";
+
 
         public ImageService(IConfiguration configuration)
         {

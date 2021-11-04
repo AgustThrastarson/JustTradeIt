@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jg5D2sIvREkvKX4DXAHGEc9ZMJ9vi1jgHGSdXq0C9illuCNtOB3/919NSzfHiB9ENL7dYLag2l7sFD5ujrSm3A==",
+  "dgSpecHash": "Lu0zw9t5F7cGkCQ5YlHEFt9hnYMvVgXsVcOHKXzVMTtgyGD0H0w2Jx+CZNPRq6Z2xn0XkKaimu0SDFWgw/V45Q==",
   "success": true,
-  "projectFilePath": "/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/JustTradeIt.Software.API.csproj",
+  "projectFilePath": "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API/JustTradeIt.Software.API.csproj",
   "expectedPackageFiles": [
     "/home/agustt/.nuget/packages/awssdk.core/3.7.3.20/awssdk.core.3.7.3.20.nupkg.sha512",
     "/home/agustt/.nuget/packages/awssdk.s3/3.7.3.13/awssdk.s3.3.7.3.13.nupkg.sha512",
@@ -63,7 +63,8 @@
     "/home/agustt/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
     "/home/agustt/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "/home/agustt/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512",
-    "/home/agustt/.nuget/packages/system.threading.channels/4.7.1/system.threading.channels.4.7.1.nupkg.sha512"
+    "/home/agustt/.nuget/packages/system.threading.channels/4.7.1/system.threading.channels.4.7.1.nupkg.sha512",
+    "/home/agustt/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

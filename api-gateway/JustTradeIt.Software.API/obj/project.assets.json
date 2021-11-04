@@ -765,7 +765,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Http": "2.2.2"
+          "Microsoft.AspNetCore.Http": "2.2.2",
+          "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
           "bin/placeholder/JustTradeIt.Software.API.Models.dll": {}
@@ -2144,11 +2145,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/JustTradeIt.Software.API.csproj",
+      "projectUniqueName": "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API/JustTradeIt.Software.API.csproj",
       "projectName": "JustTradeIt.Software.API",
-      "projectPath": "/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/JustTradeIt.Software.API.csproj",
+      "projectPath": "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API/JustTradeIt.Software.API.csproj",
       "packagesPath": "/home/agustt/.nuget/packages/",
-      "outputPath": "/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API/obj/",
+      "outputPath": "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/agustt/.nuget/NuGet/NuGet.Config"
@@ -2163,14 +2164,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Models/JustTradeIt.Software.API.Models.csproj": {
-              "projectPath": "/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Models/JustTradeIt.Software.API.Models.csproj"
+            "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Models/JustTradeIt.Software.API.Models.csproj": {
+              "projectPath": "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Models/JustTradeIt.Software.API.Models.csproj"
             },
-            "/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/JustTradeIt.Software.API.Repositories.csproj": {
-              "projectPath": "/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Repositories/JustTradeIt.Software.API.Repositories.csproj"
+            "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Repositories/JustTradeIt.Software.API.Repositories.csproj": {
+              "projectPath": "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Repositories/JustTradeIt.Software.API.Repositories.csproj"
             },
-            "/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Services/JustTradeIt.Software.API.Services.csproj": {
-              "projectPath": "/home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Services/JustTradeIt.Software.API.Services.csproj"
+            "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/JustTradeIt.Software.API.Services.csproj": {
+              "projectPath": "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/JustTradeIt.Software.API.Services.csproj"
             }
           }
         }
@@ -2222,6 +2223,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

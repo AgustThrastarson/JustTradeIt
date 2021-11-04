@@ -14,10 +14,11 @@ namespace JustTradeIt.Software.API.Services.Implementations
         private IModel _channel;
         private IConnection _connection;
         private byte[] ConvertJsonToBytes(object obj) => Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(obj));
+        private readonly string _hostname = Environment.GetEnvironmentVariable("QUEUE_HOST") ?? "localhost";
 
         public QueueService()
         {
-            _factory = new ConnectionFactory() { HostName = "localhost", UserName = "guest", Password = "guest" };
+            _factory = new ConnectionFactory() { HostName = _hostname, UserName = "guest", Password = "guest" };
             _connection = _factory.CreateConnection();
             _channel = _connection.CreateModel();
         }
