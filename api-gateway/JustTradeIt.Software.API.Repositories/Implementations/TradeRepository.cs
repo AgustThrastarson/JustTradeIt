@@ -4,6 +4,7 @@ using System.Data.Common;
 using System.Linq;
 using JustTradeIt.Software.API.Models.Dtos;
 using JustTradeIt.Software.API.Models.Enums;
+using JustTradeIt.Software.API.Models.Exceptions;
 using JustTradeIt.Software.API.Models.InputModels;
 using JustTradeIt.Software.API.Repositories.Contexts;
 using JustTradeIt.Software.API.Repositories.Entities;
@@ -26,6 +27,10 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
         {
             var tradesender = _dbContext.Users.FirstOrDefault(x => x.Email == email);
             var tradereceiver = _dbContext.Users.FirstOrDefault(x => x.PublicIdentifier == trade.ReceiverIdentifier);
+            if (tradereceiver == null)
+            {
+                throw new ResourceNotFoundException("Trade Receiver not Found :C ");
+            }
 
             List<ItemDto> ItemListSender = new List<ItemDto>();
             List<ItemDto> ItemListReceiver = new List<ItemDto>();
@@ -35,7 +40,12 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
             foreach (var item in trade.ItemsInTrade)
             {
                 
-                var currItem = _dbContext.Items.FirstOrDefault(i => i.PublicIdentifier == item.Identifier);
+                var currItem = _dbContext.Items.Where(x=> x.Deleted != true).FirstOrDefault(i => i.PublicIdentifier == item.Identifier);
+                if (currItem == null)
+                {
+                    throw new ResourceNotFoundException("Item not Found :C ");
+                }
+                
                 if (currItem.OwnerId.PublicIdentifier == tradesender.PublicIdentifier)
                 {
                     var tradeitem = new TradeItem
@@ -57,20 +67,24 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
                     TradeItemList.Add(tradeitem);
                     ItemListReceiver.Add(item);
                 }
+                else
+                {
+                    throw new ResourceNotFoundException("Item not Found :C ");
+                }
                 if (currItem == null)
                 {
-                    throw new Exception("Item has invalid Owner");
+                    throw new ResourceNotFoundException("Invalid Owner of Item :( ");;
                 }
             }
             
             if (tradereceiver == null && tradesender == null || tradereceiver == null || tradesender == null)
             {
-                throw new Exception("Invalid trade identifier");
+                throw new ResourceNotFoundException("Invalid TradeIdentifier :( ");
             }
 
             if (ItemListSender.Count == 0 && ItemListReceiver.Count == 0 || ItemListSender.Count == 0 || ItemListReceiver.Count == 0 )
             {
-                throw new Exception("Invalid Items");
+                throw new ResourceNotFoundException("Invalid Items :( ");
             }
 
             var entity = new Trade
@@ -96,6 +110,10 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
         {
 
             var tradeitem = _dbContext.Trades.FirstOrDefault(t => t.PublicIdentifier == identifier);
+            if (tradeitem == null)
+            {
+                throw new ResourceNotFoundException("Trade not Found :C ");
+            }
 
             var recitem = _dbContext.Items.Include(xo => xo.OwnerId)
                 .Where(i => i.OwnerId.Id == tradeitem.ReceiverId).Select(c => new ItemDto
@@ -161,10 +179,15 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
         public IEnumerable<TradeDto> GetTradeRequests(string email, bool onlyIncludeActive)
         {
             var user = _dbContext.Users.FirstOrDefault(u => u.Email == email);
+            
+            if (user == null)
+            {
+                throw new ResourceNotFoundException("User not Found :C ");
+            }
 
             if (onlyIncludeActive)
             {
-                var trado = _dbContext.Trades.Where(t=> t.Receiver.Id == user.Id || t.SenderId == user.Id && t.TradeStatus == TradeStatus.Pending).Select(t=> new TradeDto
+                var trado = _dbContext.Trades.Where(t=> (t.Receiver.Id == user.Id || t.SenderId == user.Id) && t.TradeStatus == TradeStatus.Pending).Select(t=> new TradeDto
                 {
                     Identifier = t.PublicIdentifier,
                     IssuedDate = t.IssuerDate,
@@ -194,8 +217,12 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
         public IEnumerable<TradeDto> GetTrades(string email)
         {
             var user = _dbContext.Users.FirstOrDefault(u => u.Email == email);
+            
+            if (user == null)
+            {
+                throw new ResourceNotFoundException("User not Found :C ");
+            }
 
-            // GetTradeRequests(email, false);
             var trado = _dbContext.Trades.Where(t=> t.Receiver.Id == user.Id || t.SenderId == user.Id && t.TradeStatus == TradeStatus.Accepted).Select(t=> new TradeDto
             {
                 Identifier = t.PublicIdentifier,
@@ -209,6 +236,11 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
 
         public IEnumerable<TradeDto> GetUserTrades(string userIdentifier)
         {
+            var user = _dbContext.Users.FirstOrDefault(u => u.PublicIdentifier == userIdentifier);
+            if (user == null)
+            {
+                throw new ResourceNotFoundException("User not Found :C ");
+            }
             var trade = _dbContext.Trades.Include(t => t.Sender).Include(r => r.Receiver).Where(t =>
                 t.Receiver.PublicIdentifier == userIdentifier || t.Sender.PublicIdentifier == userIdentifier).Select(
                 x => new TradeDto
@@ -226,8 +258,14 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
         {
             var user = _dbContext.Users.FirstOrDefault(u => u.Email == email);
             var trade = _dbContext.Trades.FirstOrDefault(t => t.PublicIdentifier == identifier);
-            //TODO check if trade is null
-            //TODO check if user is null
+            if (trade == null)
+            {
+                throw new ResourceNotFoundException("Trade not Found :C ");
+            }
+            if (user == null)
+            {
+                throw new ResourceNotFoundException("User not Found :C ");
+            }
             if (trade.TradeStatus != TradeStatus.Pending)
             {
                 throw new Exception("Invalid Trade");
@@ -240,7 +278,7 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
                 }
                 else
                 {
-                    throw new Exception("Invalid TradeStatus");
+                    throw new ArgumentNullException("Invalid TradeStatus :( ");
                 }
             }
 
@@ -252,10 +290,11 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
                 }
                 else
                 {
-                    throw new ArgumentNullException();
+                    throw new ArgumentNullException("Invalid TradeStatus :( ");
                 }
             }
-
+            trade.ModifiedDate = DateTime.Now;
+            trade.ModifiedBy = user.FullName;
             _dbContext.SaveChanges();
             return GetTradeByIdentifier(identifier);
         }

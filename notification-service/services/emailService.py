@@ -24,13 +24,17 @@ def send_trade_email(ch, method, properties, data):
 def send_trade_update_email(ch, method, properties, data):
     parsed_msg = json.loads(data)
     print(parsed_msg)
+    send = parsed_msg["Sender"]
+    trade_status = parsed_msg["Status"]
+    sender_email = send["Email"]
     receiver = parsed_msg["Receiver"]
     rec_email = receiver["Email"]
     rec_items = parsed_msg["ReceivingItems"]
-    send = parsed_msg["Sender"]
     off_items = parsed_msg["OfferingItems"]
     rec_item_html = ''.join([ '<b><p>Title: %s</p></b><p style=line-height:1.6>Description: %s</p>' % (item["Title"], item["ShortDescription"])for item in rec_items])
-    off_item_html = ''.join([ '<b><p>Title: %s</p></b><p style=line-height:1.6>Description: %s</p>' % (item["Title"], item["ShortDescription"])for item in off_items])  
+    off_item_html = ''.join([ '<b><p>Title: %s</p></b><p style=line-height:1.6>Description: %s</p>' % (item["Title"], item["ShortDescription"])for item in off_items])
+    if trade_status == "Accepted" or trade_status == "Declined":
+        rec_email = sender_email  
     email_template = f"""<!DOCTYPE html>
     <html>
     <head>
@@ -119,6 +123,7 @@ def send_trade_update_email(ch, method, properties, data):
 
     </body>
     </html>"""
+    
     send_simple_message(rec_email, 'Your trade has been updated', email_template)
 
 

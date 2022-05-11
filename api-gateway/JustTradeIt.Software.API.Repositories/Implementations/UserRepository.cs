@@ -2,6 +2,7 @@ using System;
 using System.Linq;
 using System.Text;
 using JustTradeIt.Software.API.Models.Dtos;
+using JustTradeIt.Software.API.Models.Exceptions;
 using JustTradeIt.Software.API.Models.InputModels;
 using JustTradeIt.Software.API.Repositories.Contexts;
 using JustTradeIt.Software.API.Repositories.Entities;
@@ -29,7 +30,11 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
             var user = _dbContext.Users.FirstOrDefault(u =>
                 u.Email == loginInputModel.Email &&
                 u.HashedPassword == HashHelper.HashPassword(loginInputModel.Password, _salt));
-            if (user == null) { return null; }
+            if (user == null)
+            {
+                throw new NullReferenceException("User is already registered");
+                
+            }
 
             var token = new JwtToken();
             _dbContext.JwtTokens.Add(token);
@@ -48,15 +53,11 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
 
         public UserDto CreateUser(RegisterInputModel inputModel)
         {
-            // Check if user with email already exists
             var email = _dbContext.Users.FirstOrDefault(u => u.Email == inputModel.Email);
             if (email != null)
             {
-                throw new Exception("User with email " + inputModel.Email + " found.");
+                throw new NullReferenceException("This User is already registered");
             }
-            
-
-            // Create new user
             var entity = new User
             {
                 PublicIdentifier = Guid.NewGuid().ToString(),
@@ -105,10 +106,9 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
         public UserDto GetUserInformation(string userIdentifier)
         {
             var user = _dbContext.Users.FirstOrDefault(u => u.PublicIdentifier == userIdentifier);
-            //TODO Kasta VIllu ef engin user fannst
             if (user == null)
             {
-                throw new Exception("User " + userIdentifier + " not found");
+                throw new ResourceNotFoundException("User not found :( ");
             }
 
             return new UserDto

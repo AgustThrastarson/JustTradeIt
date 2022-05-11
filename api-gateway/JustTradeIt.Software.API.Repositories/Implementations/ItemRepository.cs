@@ -4,11 +4,13 @@ using System.Linq;
 using JustTradeIt.Software.API.Models;
 using JustTradeIt.Software.API.Models.Dtos;
 using JustTradeIt.Software.API.Models.Enums;
+using JustTradeIt.Software.API.Models.Exceptions;
 using JustTradeIt.Software.API.Models.InputModels;
 using JustTradeIt.Software.API.Repositories.Contexts;
 using JustTradeIt.Software.API.Repositories.Entities;
 using JustTradeIt.Software.API.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
+
 
 namespace JustTradeIt.Software.API.Repositories.Implementations
 {
@@ -40,7 +42,10 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
             }
             
             var user = _dbContext.Users.First(x => x.Email == email);
-            
+            if (user == null)
+            {
+                throw new ResourceNotFoundException("User not found :( ");
+            }
             var entity = new Item
             {
                 PublicIdentifier = Guid.NewGuid().ToString(),
@@ -95,17 +100,21 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
             }
 
 
-            return new Envelope<ItemDto>
-            {
-                PageSize = pageSize,
-                PageNumber = pageNumber,
-                Items = items
-            };
+            return new Envelope<ItemDto>(pageNumber, pageSize, items);
         }
 
         public ItemDetailsDto GetItemByIdentifier(string identifier)
         {
             var itemid = _dbContext.Items.FirstOrDefault(x => x.PublicIdentifier == identifier).Id;
+            if (itemid == null)
+            {
+                throw new ResourceNotFoundException("Item not found :( ");
+            }
+            var item = _dbContext.Items.Where(t => t.Deleted != true).FirstOrDefault(x => x.PublicIdentifier == identifier);
+            if (item == null)
+            {
+                throw new ResourceNotFoundException("Item not found :( ");
+            }
             var NrOfActiveTrades = _dbContext.TradeItems.Where(x=> x.ItemId == itemid).Select(x=> x.Trade).Count(l => l.TradeStatus == TradeStatus.Pending);
             var detaileditem = _dbContext.Items.Include(i => i.ItemImages).Where(x => x.PublicIdentifier == identifier)
                 .Select(x => new ItemDetailsDto
@@ -138,18 +147,18 @@ namespace JustTradeIt.Software.API.Repositories.Implementations
             }
             else
             {
-                //TODO kasta villu 
-                throw new Exception("Item not found");
+                throw new NullReferenceException("Invalid Item");
             }
             
             var tradeitems = removeitem.TradeItems.Select(t => t.Trade);
             foreach (var trades in tradeitems)
             {
+                if (trades.TradeStatus == TradeStatus.Accepted)
+                {
+                    throw new NullReferenceException("Cannot delete item that is in a accepted trade");
+                }
                 trades.TradeStatus = TradeStatus.Cancelled;
             }
-            
-            
-            
             
         }
     }

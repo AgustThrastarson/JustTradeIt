@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:sqlite:C:\Users\Ágúst\Desktop\V\template\api-gateway\JustTradeIt.Software.API\tradeit.db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="tradeit [2]" uuid="170c8d1f-9c73-452d-ba4d-851e772666e0">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\Agust\OneDrive\Documents\GitHub\JustTradeIt\api-gateway\JustTradeIt.Software.API\tradeit.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

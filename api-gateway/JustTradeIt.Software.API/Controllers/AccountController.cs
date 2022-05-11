@@ -32,7 +32,10 @@ namespace JustTradeIt.Software.API.Controllers
         public IActionResult Register([FromBody] RegisterInputModel user)
         {
             if (!ModelState.IsValid) { return BadRequest("Invalid ModelState"); }
-            return StatusCode(201, _accountService.CreateUser(user));
+
+            var account = _accountService.CreateUser(user);
+            var token = _tokenService.GenerateJwtToken(account);
+            return Ok(token);
         }
 
 

@@ -21,4 +21,4 @@ def setup():
             )
         except:
             print("Trying to Connect to rabbitmq")
-            sleep(5)
+            sleep(10)

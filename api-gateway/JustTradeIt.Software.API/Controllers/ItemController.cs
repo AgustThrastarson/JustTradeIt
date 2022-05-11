@@ -36,11 +36,12 @@ namespace JustTradeIt.Software.API.Controllers
             {
                 return BadRequest("Incorrect Condition Code");
             };
-            return StatusCode(201, _itemService.AddNewItem(email, item));
+            var newitem = _itemService.AddNewItem(email, item);
+            return CreatedAtRoute(routeName: "get_item_by_identifier",routeValues: new{identifier = newitem}, newitem);
         }
 
         [HttpGet]
-        [Route("{identifier}")]
+        [Route("{identifier}", Name = "get_item_by_identifier")]
         public IActionResult GetDetailedItem(string identifier)
         {
             var item = _itemService.GetItemByIdentifier(identifier);

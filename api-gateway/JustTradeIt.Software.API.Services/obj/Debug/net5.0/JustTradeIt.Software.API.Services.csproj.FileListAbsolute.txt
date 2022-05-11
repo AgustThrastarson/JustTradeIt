@@ -66,22 +66,22 @@ C:/Users/Ágúst/Desktop/V/gamalt/api-gateway/JustTradeIt.Software.API.Services/
 /home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Services/obj/Debug/net5.0/JustTradeIt.Software.API.Services.dll
 /home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Services/obj/Debug/net5.0/ref/JustTradeIt.Software.API.Services.dll
 /home/agustt/Desktop/Vefþjónustur TradeIt/gamalt/api-gateway/JustTradeIt.Software.API.Services/obj/Debug/net5.0/JustTradeIt.Software.API.Services.pdb
-C:/Users/Agust/OneDrive/Documents/GitHub/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/bin/Debug/net5.0/JustTradeIt.Software.API.Services.deps.json
-C:/Users/Agust/OneDrive/Documents/GitHub/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/bin/Debug/net5.0/JustTradeIt.Software.API.Services.dll
-C:/Users/Agust/OneDrive/Documents/GitHub/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/bin/Debug/net5.0/ref/JustTradeIt.Software.API.Services.dll
-C:/Users/Agust/OneDrive/Documents/GitHub/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/bin/Debug/net5.0/JustTradeIt.Software.API.Services.pdb
-C:/Users/Agust/OneDrive/Documents/GitHub/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/bin/Debug/net5.0/JustTradeIt.Software.API.Models.dll
-C:/Users/Agust/OneDrive/Documents/GitHub/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/bin/Debug/net5.0/JustTradeIt.Software.API.Repositories.dll
-C:/Users/Agust/OneDrive/Documents/GitHub/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/bin/Debug/net5.0/JustTradeIt.Software.API.Repositories.pdb
-C:/Users/Agust/OneDrive/Documents/GitHub/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/bin/Debug/net5.0/JustTradeIt.Software.API.Models.pdb
-C:/Users/Agust/OneDrive/Documents/GitHub/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/obj/Debug/net5.0/JustTradeIt.Software.API.Services.csproj.AssemblyReference.cache
-C:/Users/Agust/OneDrive/Documents/GitHub/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/obj/Debug/net5.0/JustTradeIt.Software.API.Services.GeneratedMSBuildEditorConfig.editorconfig
-C:/Users/Agust/OneDrive/Documents/GitHub/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/obj/Debug/net5.0/JustTradeIt.Software.API.Services.AssemblyInfoInputs.cache
-C:/Users/Agust/OneDrive/Documents/GitHub/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/obj/Debug/net5.0/JustTradeIt.Software.API.Services.AssemblyInfo.cs
-C:/Users/Agust/OneDrive/Documents/GitHub/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/obj/Debug/net5.0/JustTradeIt.Software.API.Services.csproj.CoreCompileInputs.cache
-C:/Users/Agust/OneDrive/Documents/GitHub/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/obj/Debug/net5.0/JustTradeIt.Software.API.Services.dll
-C:/Users/Agust/OneDrive/Documents/GitHub/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/obj/Debug/net5.0/ref/JustTradeIt.Software.API.Services.dll
-C:/Users/Agust/OneDrive/Documents/GitHub/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/obj/Debug/net5.0/JustTradeIt.Software.API.Services.pdb
+C:\Users\Agust\OneDrive\Documents\GitHub\JustTradeIt\api-gateway\JustTradeIt.Software.API.Services\bin\Debug\net5.0\JustTradeIt.Software.API.Services.deps.json
+C:\Users\Agust\OneDrive\Documents\GitHub\JustTradeIt\api-gateway\JustTradeIt.Software.API.Services\bin\Debug\net5.0\JustTradeIt.Software.API.Services.dll
+C:\Users\Agust\OneDrive\Documents\GitHub\JustTradeIt\api-gateway\JustTradeIt.Software.API.Services\bin\Debug\net5.0\ref\JustTradeIt.Software.API.Services.dll
+C:\Users\Agust\OneDrive\Documents\GitHub\JustTradeIt\api-gateway\JustTradeIt.Software.API.Services\bin\Debug\net5.0\JustTradeIt.Software.API.Services.pdb
+C:\Users\Agust\OneDrive\Documents\GitHub\JustTradeIt\api-gateway\JustTradeIt.Software.API.Services\bin\Debug\net5.0\JustTradeIt.Software.API.Models.dll
+C:\Users\Agust\OneDrive\Documents\GitHub\JustTradeIt\api-gateway\JustTradeIt.Software.API.Services\bin\Debug\net5.0\JustTradeIt.Software.API.Repositories.dll
+C:\Users\Agust\OneDrive\Documents\GitHub\JustTradeIt\api-gateway\JustTradeIt.Software.API.Services\bin\Debug\net5.0\JustTradeIt.Software.API.Repositories.pdb
+C:\Users\Agust\OneDrive\Documents\GitHub\JustTradeIt\api-gateway\JustTradeIt.Software.API.Services\bin\Debug\net5.0\JustTradeIt.Software.API.Models.pdb
+C:\Users\Agust\OneDrive\Documents\GitHub\JustTradeIt\api-gateway\JustTradeIt.Software.API.Services\obj\Debug\net5.0\JustTradeIt.Software.API.Services.csproj.AssemblyReference.cache
+C:\Users\Agust\OneDrive\Documents\GitHub\JustTradeIt\api-gateway\JustTradeIt.Software.API.Services\obj\Debug\net5.0\JustTradeIt.Software.API.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Agust\OneDrive\Documents\GitHub\JustTradeIt\api-gateway\JustTradeIt.Software.API.Services\obj\Debug\net5.0\JustTradeIt.Software.API.Services.AssemblyInfoInputs.cache
+C:\Users\Agust\OneDrive\Documents\GitHub\JustTradeIt\api-gateway\JustTradeIt.Software.API.Services\obj\Debug\net5.0\JustTradeIt.Software.API.Services.AssemblyInfo.cs
+C:\Users\Agust\OneDrive\Documents\GitHub\JustTradeIt\api-gateway\JustTradeIt.Software.API.Services\obj\Debug\net5.0\JustTradeIt.Software.API.Services.csproj.CoreCompileInputs.cache
+C:\Users\Agust\OneDrive\Documents\GitHub\JustTradeIt\api-gateway\JustTradeIt.Software.API.Services\obj\Debug\net5.0\JustTradeIt.Software.API.Services.dll
+C:\Users\Agust\OneDrive\Documents\GitHub\JustTradeIt\api-gateway\JustTradeIt.Software.API.Services\obj\Debug\net5.0\ref\JustTradeIt.Software.API.Services.dll
+C:\Users\Agust\OneDrive\Documents\GitHub\JustTradeIt\api-gateway\JustTradeIt.Software.API.Services\obj\Debug\net5.0\JustTradeIt.Software.API.Services.pdb
 /home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/bin/Debug/net5.0/JustTradeIt.Software.API.Services.deps.json
 /home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/bin/Debug/net5.0/JustTradeIt.Software.API.Services.dll
 /home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/bin/Debug/net5.0/ref/JustTradeIt.Software.API.Services.dll

@@ -35,7 +35,7 @@ namespace JustTradeIt.Software.API.Controllers
         }
 
         [HttpGet]
-        [Route("{identifier}")]
+        [Route("{identifier}", Name = "get_trade_by_identifier")]
         public IActionResult GetTrade(string identifier)
         {
             return Ok(_tradeService.GetTradeByIdentifer(identifier));
@@ -47,7 +47,7 @@ namespace JustTradeIt.Software.API.Controllers
         {
             var email = User.Claims.FirstOrDefault(c => c.Type == "name").Value;
             var name = _tradeService.CreateTradeRequest(email, trade);
-            return StatusCode(201, name);
+            return CreatedAtRoute(routeName: "get_trade_by_identifier",routeValues: new{identifier = name}, name);
         }
 
         [HttpPatch]
@@ -55,7 +55,8 @@ namespace JustTradeIt.Software.API.Controllers
         public IActionResult PatchTrade(string identifier, [FromBody] string status)
         {
             var email = User.Claims.FirstOrDefault(c => c.Type == "name").Value;
-            return Ok(_tradeService.UpdateTradeRequest(identifier, email, status));
+            _tradeService.UpdateTradeRequest(identifier, email, status);
+            return NoContent();
 
         }
     }

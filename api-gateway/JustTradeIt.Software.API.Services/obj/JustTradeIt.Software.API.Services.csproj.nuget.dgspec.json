@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/JustTradeIt.Software.API.Services.csproj": {}
+    "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Services\\JustTradeIt.Software.API.Services.csproj": {}
   },
   "projects": {
-    "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Models/JustTradeIt.Software.API.Models.csproj": {
+    "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Models\\JustTradeIt.Software.API.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Models/JustTradeIt.Software.API.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Models\\JustTradeIt.Software.API.Models.csproj",
         "projectName": "JustTradeIt.Software.API.Models",
-        "projectPath": "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Models/JustTradeIt.Software.API.Models.csproj",
-        "packagesPath": "/home/agustt/.nuget/packages/",
-        "outputPath": "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Models/obj/",
+        "projectPath": "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Models\\JustTradeIt.Software.API.Models.csproj",
+        "packagesPath": "C:\\Users\\Agust\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/agustt/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Agust\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -57,32 +57,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.205/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Repositories/JustTradeIt.Software.API.Repositories.csproj": {
+    "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Repositories\\JustTradeIt.Software.API.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Repositories/JustTradeIt.Software.API.Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Repositories\\JustTradeIt.Software.API.Repositories.csproj",
         "projectName": "JustTradeIt.Software.API.Repositories",
-        "projectPath": "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Repositories/JustTradeIt.Software.API.Repositories.csproj",
-        "packagesPath": "/home/agustt/.nuget/packages/",
-        "outputPath": "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Repositories/obj/",
+        "projectPath": "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Repositories\\JustTradeIt.Software.API.Repositories.csproj",
+        "packagesPath": "C:\\Users\\Agust\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/agustt/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Agust\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -94,8 +88,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Models/JustTradeIt.Software.API.Models.csproj": {
-                "projectPath": "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Models/JustTradeIt.Software.API.Models.csproj"
+              "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Models\\JustTradeIt.Software.API.Models.csproj": {
+                "projectPath": "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Models\\JustTradeIt.Software.API.Models.csproj"
               }
             }
           }
@@ -129,32 +123,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.205/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/JustTradeIt.Software.API.Services.csproj": {
+    "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Services\\JustTradeIt.Software.API.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/JustTradeIt.Software.API.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Services\\JustTradeIt.Software.API.Services.csproj",
         "projectName": "JustTradeIt.Software.API.Services",
-        "projectPath": "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/JustTradeIt.Software.API.Services.csproj",
-        "packagesPath": "/home/agustt/.nuget/packages/",
-        "outputPath": "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Services/obj/",
+        "projectPath": "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Services\\JustTradeIt.Software.API.Services.csproj",
+        "packagesPath": "C:\\Users\\Agust\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/agustt/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Agust\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -166,11 +154,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Models/JustTradeIt.Software.API.Models.csproj": {
-                "projectPath": "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Models/JustTradeIt.Software.API.Models.csproj"
+              "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Models\\JustTradeIt.Software.API.Models.csproj": {
+                "projectPath": "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Models\\JustTradeIt.Software.API.Models.csproj"
               },
-              "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Repositories/JustTradeIt.Software.API.Repositories.csproj": {
-                "projectPath": "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Repositories/JustTradeIt.Software.API.Repositories.csproj"
+              "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Repositories\\JustTradeIt.Software.API.Repositories.csproj": {
+                "projectPath": "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Repositories\\JustTradeIt.Software.API.Repositories.csproj"
               }
             }
           }
@@ -232,18 +220,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.205/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

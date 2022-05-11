@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Models/JustTradeIt.Software.API.Models.csproj": {}
+    "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Models\\JustTradeIt.Software.API.Models.csproj": {}
   },
   "projects": {
-    "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Models/JustTradeIt.Software.API.Models.csproj": {
+    "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Models\\JustTradeIt.Software.API.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Models/JustTradeIt.Software.API.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Models\\JustTradeIt.Software.API.Models.csproj",
         "projectName": "JustTradeIt.Software.API.Models",
-        "projectPath": "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Models/JustTradeIt.Software.API.Models.csproj",
-        "packagesPath": "/home/agustt/.nuget/packages/",
-        "outputPath": "/home/agustt/Documents/JustTradeIt/JustTradeIt/api-gateway/JustTradeIt.Software.API.Models/obj/",
+        "projectPath": "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Models\\JustTradeIt.Software.API.Models.csproj",
+        "packagesPath": "C:\\Users\\Agust\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Agust\\OneDrive\\Documents\\GitHub\\JustTradeIt\\api-gateway\\JustTradeIt.Software.API.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/agustt/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Agust\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -57,18 +57,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.205/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
